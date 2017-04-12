@@ -10,13 +10,13 @@ import org.VendasChuteiras.modelo.Produto;
 
 /**
  *
- * @author trabalho
+ * @author Lucas R.
  */
 public class CadastrarProdutoBean {
     Produto produto = new Produto();
  
      public void adicionar() {
-         produtoDAO.salvar(produto)
+         produtoDAO.salvar(produto);
 }
      public Produto getProduto() {
          return produto;
